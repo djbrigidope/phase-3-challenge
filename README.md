@@ -1,2 +1,2 @@
 # phase-3-challenge
-phase resorting thizzness
+phase re-sorting thizzness
