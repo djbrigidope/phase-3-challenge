@@ -12,5 +12,13 @@ CREATE TABLE grocery_items(
 );
 
 CREATE TABLE shoppers(
-  id SERIAL
-)
+  id SERIAL PRIMARY KEY,
+  name1 TEXT,
+  name2 TEXT
+);
+
+
+CREATE TABLE orders(
+  id SERIAL PRIMARY KEY,
+  orderDate TIMESTAMP
+);
