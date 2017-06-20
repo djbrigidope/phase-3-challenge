@@ -8,6 +8,24 @@ app.get('/zero',(req,res) =>{
   res.send('zero');
 })
 
+app.get('/add',(req,res) =>{
+  res.setHeader('Content-Type', 'text/plain');
+  res.setStatus = 200;
+  res.send('zero');
+})
+
+app.get('/subtract',(req,res) =>{
+  res.setHeader('Content-Type', 'text/plain');
+  res.setStatus = 200;
+  res.send('zero');
+})
+
+app.get('/double/:number',(req,res) =>{
+  res.setHeader('Content-Type', 'text/plain');
+  res.setStatus = 200;
+  res.send('zero');
+})
+
 
 //call back consoles an error message jik server crashes before the console.log
 app.listen(port, (err,res)=>{
