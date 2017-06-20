@@ -19,8 +19,8 @@ Each requirement has a point value. A fully complete requirement gets full point
 
 ## General Requirements
 
-- [ ] __10:__ Solution is in a public repository called `phase-3-challenge`
-- [ ] __10:__ Solution repository has 3 folders: `part-1`, `part-2`, and `part-3`.
+- [X] __10:__ Solution is in a public repository called `phase-3-challenge`
+- [X] __10:__ Solution repository has 3 folders: `part-1`, `part-2`, and `part-3`.
 - [ ] __20:__ Git history shows frequent commits.
 
 ## Part 1: Simple web app
