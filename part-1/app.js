@@ -8,19 +8,20 @@ app.get('/zero',(req,res) =>{
   res.send('zero');
 })
 
-app.get('/add',(req,res) =>{
+
+app.get('/add',(req,res,next) => {
+    let add =req.query.a+req.query.b;
+    console.log(add);
+})
+
+
+app.get('/subtract',(req,res,next) =>{
   res.setHeader('Content-Type', 'text/plain');
   res.setStatus = 200;
   res.send('zero');
 })
 
-app.get('/subtract',(req,res) =>{
-  res.setHeader('Content-Type', 'text/plain');
-  res.setStatus = 200;
-  res.send('zero');
-})
-
-app.get('/double/:number',(req,res) =>{
+app.get('/double/:number',(req,res,next) =>{
   res.setHeader('Content-Type', 'text/plain');
   res.setStatus = 200;
   res.send('zero');
