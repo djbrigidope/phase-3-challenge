@@ -60,10 +60,10 @@ response: 18
 
 ### Requirements
 
-- [ ] __10:__ All files are stored under the `part-1/` folder
-- [ ] __10:__ All dependencies are specified in a `package.json` file
-- [ ] __10:__ Web server can be started with `npm start` command
-- [ ] __20:__ GET requests to the `/zero` route respond with plain text `0`
+- [X] __10:__ All files are stored under the `part-1/` folder
+- [X] __10:__ All dependencies are specified in a `package.json` file
+- [X] __10:__ Web server can be started with `npm start` command
+- [X] __20:__ GET requests to the `/zero` route respond with plain text `0`
 - [ ] __20:__ GET requests to the `/add` route add the two numbers provided in the query string variables `a` and `b` and respond with the result
 - [ ] __20:__ GET requests to the `/subtract` route subtract the value of the query string variable `b` from the query string variable `a` and respond with the result
 - [ ] __20:__ GET requests to the `/double/:number` route doubles the number provided in the URL (in place of `:number`) and responds with the result
