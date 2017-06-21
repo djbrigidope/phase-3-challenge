@@ -3,9 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Grocer</title>
-
     <link rel="stylesheet" href="grocer.css">
+    <link type="JavaScript" src="index.js">
   </head>
+
+<button class="myModal">triggerman</button>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Some text in the Modal..</p>
+    </div>
+
+    </div>
+
+
+
   <body class="flex flex-column">
     <header class="site-header flex flex-row-between">
       <h1>Grocer</h1>
@@ -74,5 +87,21 @@
         </ul>
       </div>
     </div>
+
+<script>
+const cart = [];
+let item = (name, price, count)=>{
+  this.name=name;
+  this.price=price;
+  this.count=count;
+};
+
+let addItemToCart=(name, price, count)=>{
+  let item = new item(name, price, count);
+  cart.push(item);
+}
+
+</script>
+
   </body>
 </html>
